@@ -1,0 +1,141 @@
+
+a {text-decoration: none;
+    margin: 10px;
+color: black;
+font-weight: 600;}
+
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 83.52px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    letter-spacing: -3px;
+}
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #D8383A;
+    font-size: 16px;
+    line-height: 35px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: -20px;
+
+}
+
+.img {
+  padding: 50px;
+ margin-right: 300px;
+}
+
+.Offer {
+    border: 1px solid orange;
+    padding: 8px;
+    border-radius: 3px;
+    margin-left: 15px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    margin-right: 90px;
+    
+    font-size: 20px;
+    padding: 24px, 64px, 24px, 64px;
+
+
+}
+
+
+.Login {
+    background-color: #D8383A;
+    border: 1px solid #D8383A;
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: white;
+    margin-left: 10px;
+ 
+
+}
+
+.login {
+    color: white;
+   
+    
+  
+}
+
+
+h1 + p {
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Course {
+    border: 1px solid #D8383A;
+    background-color: #D8383A;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    width: 300;
+    height: 50px;
+    border-radius: 1rem;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Video {
+    border: 2px solid #D8383A;
+    background-color: white;
+    color: #D8383A;
+    border: 1px solid #D8383A;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    width: 300;
+    height: 50px;
+    border-radius: 1rem;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.navv:hover {
+    color: #D8383A;
+}
+
+.Course:hover {
+    border: 1px solid #D8383A;
+    background-color: white;
+    color: #D8383A;
+}
